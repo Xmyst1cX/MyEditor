@@ -1,0 +1,10 @@
+{
+    "Interface Settings": {
+      "Text font": "RobotoCondensed-Regular.ttf",
+      "Text color": "#303030",
+      "Background color": "#FFFFFF",
+      "Color of other interface elements": "#303030",
+      "Close button color": "#f44336"
+    },
+    "Kit Settings": {}
+}  
