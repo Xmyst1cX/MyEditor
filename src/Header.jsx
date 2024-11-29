@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./assets/logo.png"; // Замените путь на ваш файл
+import logo from "./assets/logo.png";
+import ds from "./assets/discord.png";
 
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
 
@@ -13,6 +14,7 @@ const Header = () => {
           <li style={liStyle}>About</li>
           <li style={liStyle}>Contact</li>
         </ul>
+        <a href="https://discord.gg/fvtGDS9m4D" target="_blank" style={buttonDiscord}><button style={discord}><img src={ds} alt="discord" style={imgDiscord}/></button></a>
       </nav>
     </header>
   );
@@ -62,6 +64,30 @@ const imgStyle = {
   marginRight: "-30px",
   borderRadius: "15px",
   marginLeft: "15px",
+};
+
+const buttonDiscord = {
+  marginLeft: "auto",
+  marginRight: "15px",
+};
+
+const discord = {
+  width: "35px",
+  height: "35px",
+  borderRadius: "5px",
+  border: "1px solid rgba(34, 34, 35, 0.73)",
+  backgroundColor: "rgba(22, 22, 23, 0.85)",
+  padding: "0px",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+};
+
+const imgDiscord = {
+  height: "25px",
+  width: "25px",
+  cursor: "pointer",
+  display: "block",
 };
 
 export default Header;
